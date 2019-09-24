@@ -1,0 +1,14 @@
+# 第8章 Kubernetes监控实战
+
+Kubenetes是一款由Google开发的开源的容器编排工具，在Google已经使用超过15年。作为容器领域事实的标准，Kubernetes可以极大的简化应用的管理和部署复杂度。本章中，我们将介绍Kubernetes的一些基本概念，并且从0开始利用Prometheus构建一个完整的Kubernetes集群监控系统。同时我们还将学习如何通过Prometheus Operator简化在Kubernetes下部署和管理Promethues的过程。
+
+本章的主要内容：
+
+* 理解Kubernetes的工作机制
+* Prometheus在Kubernetes下的服务发现机制
+* 监控Kubernetes集群状态
+* 监控集群基础设施基础设施
+* 监控集群应用容器资源使用情况
+* 监控用户部署的应用程序
+* 对Service和Ingress进行网络探测
+* 通过Operator高效管理和部署在Kubernetes集群中的Prometheus
